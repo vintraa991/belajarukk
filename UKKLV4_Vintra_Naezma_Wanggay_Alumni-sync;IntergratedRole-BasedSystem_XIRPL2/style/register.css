@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.register-container {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* TITLE */
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #2a5298;
+}
+
+/* FORM */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form input {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* FOCUS */
+.register-form input:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 6px rgba(42, 82, 152, 0.3);
+}
+
+/* BUTTON */
+.register-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* LINK */
+.register-container a {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #2a5298;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 400px) {
+    .register-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+.register-form select {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+body {
+    background: linear-gradient(135deg, #2e0854, #ff007f);
+}
+
+.register-container {
+    background: #ffffff; 
+    box-shadow: 0 10px 30px rgba(255, 0, 127, 0.2)
+}
+
+.register-container h2 {
+    color: #7928ca; 
+}
+
+.register-form input:focus, 
+.register-form select:focus {
+    border-color: #ff007f;
+    box-shadow: 0 0 8px rgba(255, 0, 127, 0.5);
+}
+
+.register-form button {
+    background: linear-gradient(135deg, #7928ca, #ff007f);
+}
+
+.register-form button:hover {
+    background: linear-gradient(135deg, #ff007f, #7928ca);
+    box-shadow: 0 5px 15px rgba(255, 0, 127, 0.4);
+}
+
+.register-container a {
+    color: #ff007f;
+    font-weight: 500;
+}
